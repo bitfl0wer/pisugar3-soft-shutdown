@@ -1,0 +1,12 @@
+[Unit]
+Description=PiSugar 3 check soft shutdown
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/share/pisugar3-soft-shutdown/check-soft-shutdown.py
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target

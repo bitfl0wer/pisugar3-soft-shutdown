@@ -1,0 +1,11 @@
+[Unit]
+Description=PiSugar 3 enable soft shutdown
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/share/pisugar3-soft-shutdown/set-soft-shutdown.py
+User=root
+
+[Install]
+WantedBy=multi-user.target
