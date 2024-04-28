@@ -4,7 +4,7 @@ Soft shutdown functionality for the PiSugar 3 on Raspberry Pi devices via I2C ov
 
 ## Versioning
 
-Version 0.1.0
+Version 0.1.1
 
 This repository uses [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html).
 
