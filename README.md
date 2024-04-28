@@ -2,6 +2,12 @@
 
 Soft shutdown functionality for the PiSugar 3 on Raspberry Pi devices via I2C over GPIO
 
+## Versioning
+
+Version 0.1.0
+
+This repository uses [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html).
+
 ## Dependencies
 
 - `python3`, version 3.8 or later
@@ -21,7 +27,6 @@ running `sudo python3 enable.py`.
 1. Run `sudo python3 uninstall.py` to disable and remove all installed scripts and services.
 
 ## Usage
-
 
 > [!IMPORTANT]
 > Scripts need to be run as **root** using the `sudo` command.
